@@ -1,3 +1,10 @@
+'''
+This file must be run as cron job every 4 or 5 minutes so that local directory gets sync by downloading files from dropbox.
+Cron job is basically running script in background in regular intervals.
+Refer : https://askubuntu.com/questions/799023/how-to-set-up-a-cron-job-to-run-every-10-minutes
+'''
+
+
 import os
 import sys
 import dropbox
