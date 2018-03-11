@@ -1,3 +1,11 @@
+'''
+It must runned as Daemon, which is a background process and it never dies until force stopping it.
+Refer :https://stackoverflow.com/questions/4797050/how-to-run-process-as-background-and-never-die
+The watchdog module fires on_modified function which uploads the changes in the directory to dropbox
+
+'''
+
+
 import os
 import contextlib
 import dropbox
